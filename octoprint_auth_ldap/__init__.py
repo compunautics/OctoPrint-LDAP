@@ -162,12 +162,12 @@ class LDAPUserManager(FilebasedUserManager,
 
                 # version check: github repository
                 type="github_release",
-                user="gillg",
+                user="compunautics",
                 repo="OctoPrint-LDAP",
                 current=self._plugin_version,
 
                 # update method: pip
-                pip="https://github.com/gillg/OctoPrint-LDAP/archive/{target_version}.zip"
+                pip="https://github.com/compunautics/OctoPrint-LDAP/archive/master.zip"
             )
         )
 
